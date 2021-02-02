@@ -19,18 +19,20 @@ h2{
     margin-bottom: 10%;
 }
 p.article-title {
-    border:2px solid black;
-    width: auto;
-    margin:0%
+    width: 200px;
+    margin: 0%;
+    font-size: 50px;
+    text-align: left;
 }
-div {
+.col-lg-4 {
     border: 3px solid black;
-    background-color: white;
+    background-color: beige;
     padding: 30px;
     padding-top: 15px;
     float: left;
     text-align: justify;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+    position: relative;
 }
 #box {
     background-color: paleturquoise;
@@ -40,6 +42,29 @@ div {
     border: 0;
     display: flex;
     flex-wrap: wrap;
+}
+.button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid black;
+    border-top: 0;
+    border-right: 0;
+    margin: 0;
+    font-weight: 800;
+    text-align: center;
+}
+.cat1 {
+    background-color: darkcyan;
+}
+.cat2 {
+    background-color: darkgoldenrod;
+}
+.cat3 {
+    background-color: darkred;
 }
 /*large devices only*/
 @media (min-width:992px) {
